@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art Generator - Option 1</title>
+    <meta name="description" content="Discover Art Generator with our professional tools. Option 1 provides the best solution for your needs.">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Art Generator - Option 1">
+    <meta property="og:description" content="Discover Art Generator with our professional tools. Option 1 provides the best solution for your needs.">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="Art Generator - Option 1">
+    <meta property="twitter:description" content="Discover Art Generator with our professional tools. Option 1 provides the best solution for your needs.">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Syne:wght@400;700;800&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Inline Styles for Missing Classes -->
+    <style>
+        .btn-primary {
+            background-color: #FF0000;
+            color: #FFFFFF;
+            border: 1px solid #FF0000;
+            transition: all 0.3s ease;
+        }
+        .btn-primary:hover {
+            background-color: transparent;
+            color: #FF0000;
+        }
+        .nav-cta {
+            margin-left: 1rem;
+        }
+    </style>
+    
+    <!-- JSON-LD Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "Art",
+      "description": "Discover Art Generator with our professional tools. Option 1 provides the best solution for your needs.",
+      "applicationCategory": "DesignApplication",
+      "operatingSystem": "Web",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "mainEntity": {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is the Art Generator?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The Art Generator is an advanced AI image effect that intelligently transforms your uploaded photos into stunning works of art. You simply provide a photo, and our tool applies a unique artistic style to create a new, masterpiece-quality image."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How much time does it take to generate an image?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The processing time depends on the complexity of your photo and the selected art style. However, our platform is highly optimized for performance, typically delivering your final artwork much faster than competing services."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is the Art Generator free to use?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes! To get started, simply sign up for a free account on our website. We will provide you with complimentary credits that you can use to explore the Art Generator and create your first few pieces of art at no cost."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Are my uploaded photos safe and private?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Your privacy is our top priority. We use secure connections for all uploads, and your photos are used solely for the purpose of generating your artwork. They are never shared or used for any other purpose and are automatically deleted from our servers."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What types of photos work best with the Art Generator?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "For the most impressive results, we recommend using high-quality, well-lit images with clear subjects. Our tool supports common formats like JPG and PNG. Feel free to experiment with portraits, landscapes, and even abstract photos!"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What artistic styles are available?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "We offer a wide and growing library of artistic styles, including Impressionist, Cubist, Pop Art, Abstract, and styles inspired by famous artists like Van Gogh and Monet. You can browse our style gallery to find the perfect look for your photo."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do I own the rights to the art I create?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, absolutely. You retain full ownership and rights to the images you generate using our tool. You are free to use them for personal or commercial projects without any restrictions."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I download the generated art in high resolution?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, all artwork generated by our tool is available for download in high resolution, making it suitable for printing, digital displays, and professional use."
+            }
+          }
+        ]
+      }
+    }
+    </script>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="logo">ART</div>
+        <button class="menu-toggle mobile-only">☰</button>
+        <nav>
+            <a href="#hero">Home</a>
+            <a href="#playground">Create</a>
+            <a href="#how-to-use">Process</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#features">Features</a>
+            <a href="#faq">FAQ</a>
+            <!-- CTA inside nav for correct alignment -->
+            <a href="#playground" class="btn btn-primary nav-cta desktop-only">Generate</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero">
+            <div class="hero-bg-animation">
+                <!-- Decorative Shapes injected by CSS/JS -->
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+            </div>
+            <div class="hero-content reveal-on-scroll">
+                <h1>Art Generator - Option 1</h1>
+                <p>Discover Art Generator with our professional tools. Option 1 provides the best solution for your needs.</p>
+                <a href="#playground" class="btn btn-primary btn-lg">Generate</a>
+            </div>
+        </section>
+
+        <!-- Playground Section (LOCKED) -->
+        <section id="playground">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Effect Lab</h2>
+                </div>
+                
+                <div class="locked-container">
+                    <div class="locked-content">
+                        <div class="lock-icon">🔒</div>
+                        <h3>EFFECT LAB LOCKED</h3>
+                        <p>The 'None' effect is under development.</p>
+                        <div class="progress-wrapper">
+                            <div class="progress-bar" style="width: 85%"></div>
+                        </div>
+                        <span class="progress-text">Development Status: 85%</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features / Why Use Section -->
+        <section id="features">
+            <div class="container">
+                <div class="section-header reveal-on-scroll">
+                    <h2>Why Our AI Art Generator Stands Out?</h2>
+                    <p>Discover the key advantages of our platform, designed to deliver a seamless and powerful creative experience for everyone.</p>
+                </div>
+                <div class="grid-4">
+                    <div class="feature-card reveal-on-scroll">
+                        <div class="icon">✨</div>
+                        <h3>High-Quality Outputs</h3>
+                        <p>Enjoy professional-grade results with exceptional clarity, detail, and color accuracy in every AI-generated output.</p>
+                    </div>
+                    <div class="feature-card reveal-on-scroll">
+                        <div class="icon">⚡</div>
+                        <h3>Instant Results</h3>
+                        <p>Upload your photo and receive Art Generator style visuals in seconds. No editing or design skills are required—the AI handles it all.</p>
+                    </div>
+                    <div class="feature-card reveal-on-scroll">
+                        <div class="icon">🛠️</div>
+                        <h3>User-Friendly Interface</h3>
+                        <p>Our simple, intuitive design makes the Art Generator tool accessible for everyone, regardless of technical experience.</p>
+                    </div>
+                    <div class="feature-card reveal-on-scroll">
+                        <div class="icon">🔒</div>
+                        <h3>Secure & Private</h3>
+                        <p>Your privacy is our priority. Every image is processed securely, ensuring your data remains confidential and is never shared with third parties.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- How It Works Section -->
+        <section id="how-to-use">
+            <div class="container">
+                <div class="section-header reveal-on-scroll">
+                    <h2>How Art Generator Works?</h2>
+                </div>
+                <div class="steps-grid">
+                    <div class="step-card reveal-on-scroll">
+                        <div class="step-number">1</div>
+                        <h3>Upload Photo</h3>
+                        <p>Select & Upload photos from your device to apply Art Generator, and make sure uploaded photos must be in high quality with a well-lit background.</p>
+                    </div>
+                    <div class="step-card reveal-on-scroll">
+                        <div class="step-number">2</div>
+                        <h3>Apply Art Generator</h3>
+                        <p>After the photo is uploaded click on the “Apply Image Effect” button to apply Art Generator to your photo.</p>
+                    </div>
+                    <div class="step-card reveal-on-scroll">
+                        <div class="step-number">3</div>
+                        <h3>Download & Share</h3>
+                        <p>Download your generated Art Generator to your device and share it on your favorite social media platform, and with your friends and family.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section id="gallery">
+            <div class="container">
+                <div class="section-header reveal-on-scroll">
+                    <h2>Gallery</h2>
+                </div>
+                <div class="gallery-grid">
+                    <div class="gallery-item reveal-on-scroll">
+                        <img src="images/gallery-result-1.jpg" alt="A vibrant pop-art style portrait of a woman with colorful geometric shapes, halftone patterns, bright red and yellow colors, comic book style aesthetic, high contrast">
+                    </div>
+                    <div class="gallery-item reveal-on-scroll">
+                        <img src="images/gallery-result-2.jpg" alt="A cubist interpretation of a city skyline, fragmented perspective, bold black outlines, primary colors blue red yellow, abstract shapes, Picasso style">
+                    </div>
+                    <div class="gallery-item reveal-on-scroll">
+                        <img src="images/gallery-result-3.jpg" alt="An abstract oil painting of a cat, swirling brushstrokes, impressionist style like Van Gogh Starry Night, vivid blue and gold hues, textured appearance">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section id="testimonials">
+            <div class="container">
+                <div class="section-header reveal-on-scroll">
+                    <h2>What People Say about us</h2>
+                </div>
+                <div class="testimonials-grid">
+                    <div class="testimonial-card reveal-on-scroll">
+                        <p class="quote">"I'm genuinely impressed with the quality. It's super easy to use and the results are fantastic for my projects."</p>
+                        <div class="author">
+                            <span class="name">Olivia</span>
+                            <span class="role">Content Creator</span>
+                        </div>
+                    </div>
+                    <div class="testimonial-card reveal-on-scroll">
+                        <p class="quote">"This has been a total game-changer. The integration with Max Studio makes my workflow so much smoother."</p>
+                        <div class="author">
+                            <span class="name">Ethan</span>
+                            <span class="role">Digital Artist</span>
+                        </div>
+                    </div>
+                    <div class="testimonial-card reveal-on-scroll">
+                        <p class="quote">"I just use it for fun, but wow! I've made some incredible wallpapers for my phone in just a few minutes."</p>
+                        <div class="author">
+                            <span class="name">Mia</span>
+                            <span class="role">Android user from USA</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section id="faq">
+            <div class="container">
+                <div class="section-header reveal-on-scroll">
+                    <h2>Frequently Asked Questions</h2>
+                </div>
+                <div class="faq-container">
+                    <div class="faq-item reveal-on-scroll">
+                        <button class="faq-question">What is the Art Generator?</button>
+                        <div class="faq-answer"><p>The Art Generator is an advanced AI image effect that intelligently transforms your uploaded photos into stunning works of art. You simply provide a photo, and our tool applies a unique artistic style to create a new, masterpiece-quality image.</p></div>
+                    </div>
+                    <div class="faq-item reveal-on-scroll">
+                        <button class="faq-question">How much time does it take to generate an image?</button>
+                        <div class="faq-answer"><p>The processing time depends on the complexity of your photo and the selected art style. However, our platform is highly optimized for performance, typically delivering your final artwork much faster than competing services.</p></div>
+                    </div>
+                    <div class="faq-item reveal-on-scroll">
+                        <button class="faq-question">Is the Art Generator free to use?</button>
+                        <div class="faq-answer"><p>Yes! To get started, simply sign up for a free account on our website. We will provide you with complimentary credits that you can use to explore the Art Generator and create your first few pieces of art at no cost.</p></div>
+                    </div>
+                    <div class="faq-item reveal-on-scroll">
+                        <button class="faq-question">Are my uploaded photos safe and private?</button>
+                        <div class="faq-answer"><p>Your privacy is our top priority. We use secure connections for all uploads, and your photos are used solely for the purpose of generating your artwork. They are never shared or used for any other purpose and are automatically deleted from our servers.</p></div>
+                    </div>
+                    <div class="faq-item reveal-on-scroll">
+                        <button class="faq-question">What types of photos work best with the Art Generator?</button>
+                        <div class="faq-answer"><p>For the most impressive results, we recommend using high-quality, well-lit images with clear subjects. Our tool supports common formats like JPG and PNG. Feel free to experiment with portraits, landscapes, and even abstract photos!</p></div>
+                    </div>
+                    <div class="faq-item reveal-on-scroll">
+                        <button class="faq-question">What artistic styles are available?</button>
+                        <div class="faq-answer"><p>We offer a wide and growing library of artistic styles, including Impressionist, Cubist, Pop Art, Abstract, and styles inspired by famous artists like Van Gogh and Monet. You can browse our style gallery to find the perfect look for your photo.</p></div>
+                    </div>
+                    <div class="faq-item reveal-on-scroll">
+                        <button class="faq-question">Do I own the rights to the art I create?</button>
+                        <div class="faq-answer"><p>Yes, absolutely. You retain full ownership and rights to the images you generate using our tool. You are free to use them for personal or commercial projects without any restrictions.</p></div>
+                    </div>
+                    <div class="faq-item reveal-on-scroll">
+                        <button class="faq-question">Can I download the generated art in high resolution?</button>
+                        <div class="faq-answer"><p>Yes, all artwork generated by our tool is available for download in high resolution, making it suitable for printing, digital displays, and professional use.</p></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">Art</div>
+            <div class="footer-links">
+                <a href="#" data-modal-target="privacy-modal">Privacy Policy</a>
+                <a href="#" data-modal-target="terms-modal">Terms of Service</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2024 Art. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Modals -->
+    <div id="privacy-modal" class="modal hidden">
+        <div class="modal-content">
+            <span class="close-modal" data-modal-close>&times;</span>
+            <div class="modal-body">
+                <h2>Privacy Policy</h2>
+                <p><strong>Last Updated:</strong> 2024</p>
+
+                <h4>1. Data Collection</h4>
+                <p>We collect only the minimum data necessary:</p>
+                <ul>
+                  <li>Images you upload for processing (temporarily stored)</li>
+                  <li>Basic usage analytics (non-personal)</li>
+                  <li>Browser type and device information</li>
+                </ul>
+
+                <h4>2. Image Processing</h4>
+                <p>Your uploaded images are:</p>
+                <ul>
+                  <li>Processed securely on our servers</li>
+                  <li>Automatically deleted within 24 hours</li>
+                  <li>Never shared with third parties</li>
+                  <li>Not used for AI training without consent</li>
+                </ul>
+
+                <h4>3. Data Security</h4>
+                <p>All data transmission is encrypted using SSL/TLS protocols.</p>
+
+                <h4>4. Cookies</h4>
+                <p>We use essential cookies only for site functionality.</p>
+
+                <h4>5. Your Rights</h4>
+                <p>You have the right to request deletion of any stored data.</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="terms-modal" class="modal hidden">
+        <div class="modal-content">
+            <span class="close-modal" data-modal-close>&times;</span>
+            <div class="modal-body">
+                <h2>Terms of Service</h2>
+                <p><strong>Last Updated:</strong> 2024</p>
+
+                <h4>1. Acceptance of Terms</h4>
+                <p>By using this service, you agree to these Terms.</p>
+
+                <h4>2. Service Description</h4>
+                <p>This service provides AI-powered image transformation. Provided "as-is" without warranties.</p>
+
+                <h4>3. Acceptable Use</h4>
+                <p>You agree NOT to upload:</p>
+                <ul>
+                  <li>Illegal or unlawful content</li>
+                  <li>Explicit, pornographic, or obscene material</li>
+                  <li>Content depicting violence or harm</li>
+                  <li>Images you do not have rights to use</li>
+                </ul>
+
+                <h4>4. Intellectual Property</h4>
+                <p>You retain full ownership of your original images. Generated effects are royalty-free for personal and commercial use.</p>
+
+                <h4>5. Limitation of Liability</h4>
+                <p>We are not liable for any damages arising from the use of this service.</p>
+
+                <h4>6. Modifications</h4>
+                <p>We may update these terms at any time. Continued use constitutes acceptance.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
